@@ -266,16 +266,41 @@ aside {
 .sh:hover, .sh1:hover, .sh2:hover {
 	color: red;
 }
-.sh:after {
+.triangle-up::after {
 	content: "";
 	width: 0;
 	height: 0;
-	border-top: 20px solid black;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
+	border-bottom: 10px solid black;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
 	position: absolute;
-	top: 70px;
-	left: 190px;
-	right: 0;
-
+	top: 55px;
+	left: 200px;
+}
+.triangle-down::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 10px solid black;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: 65px;
+	left: 200px;
+}
+.triangle-up1::after {
+	top:585px;
+	left: 130px;
+}
+.triangle-down1::after {
+	top: 595px;
+	left: 130px;
+}
+.triangle-up2::after {
+	top: 465px;
+	left: 225px;
+}
+.triangle-down2::after {
+	top: 475px;
+	left: 225px;
 }
