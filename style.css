@@ -355,7 +355,6 @@ aside {
 	width: 410px;
 	color: #999;
 	text-align: center;
-	font-family: verdana;
 	margin-right: 290px;
 	font-size: 27px;
 	letter-spacing: 3px;
@@ -368,6 +367,7 @@ aside {
 	bottom: 195px;
 }
 .map3 {
+	font-family: 'Times New Roman';
 	font-style: oblique;
 	font-size: 15px;
 	line-height: 8px;
@@ -393,37 +393,82 @@ aside {
 	bottom: 65px;
 	font-family: arial;
 }
-footer {
-
+.myform {
+	display: flex;
+    width: 1600px;
+    height: 130px;
+    border-top: 1px solid #ccc;
+    padding: 40px 0;
 }
 label {
-	margin: auto 50px auto 100px;
+	margin: 18px 40px 0 200px;
 	font-family: arial;
+	font-size: 17px;
 	letter-spacing: 3px;
 }
 input[type=email] {
-	width: 350px;
-	height: 40px;
-	margin: 0 10px;
-	padding: 3px 20px;
+	width: 410px;
+	height: 50px;
+	padding: 0 20px;
 	font-style: italic;
 	border: 2px solid #ccc;
-	box-sizing: content-box;
 }
 input[type=submit] {
-	width: 160px;
-	height: 46px;
-	background-color: #3e1d1d;
+	width: 205px;
+	height: 50px;
+	background-color: #1a0000;
 	color: #fff;
-	margin: 0 3px;
+	margin: 0 10px;
 	border: 1px solid #3e1d1d;
-	box-sizing: content-box;
-	font-size: 22px;
-	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.click {
+	width: 220px;
+	height: 50px;
+	display: block;
+	font-style: italic;
+	font-family: 'Times New Roman';
+	text-align: center;
+	margin-right: 240px;
+	margin-left: 20px;
+}
+.click1 {
+	font-family: arial;
+	height: 15px;
+	font-size: 20px;
+}
+.click2 {
+	height: 10px;
+	color: #999;
+	font-size: 10px;
+}
+#collection6 {	
+	height: 50px;
+	width: 1600px;
+	background-color: #1a0000;
+	margin-bottom: 80px;
 }
 #last {
-
+	width: 1200px;
+    border: 1px solid red;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+}
+.second-link {
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;	
+	display: inline-block;
+	padding: 15px 40px 0 0;
+	letter-spacing: 2px;	
+	font-size: 15px;
 }
 .last1 {
-	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	padding-top: 10px; 
+	padding-left: 120px;	
+	font-size: 10px;
 }
