@@ -491,7 +491,6 @@ input[type=submit] {
 .next {
 	width: 1200px;
 	display: flex;
-	border: 2px solid red;
 	margin: 0 200px;
 }
 .next1 {
@@ -518,4 +517,129 @@ input[type=submit] {
 	word-spacing: 3px;
 	letter-spacing: 1px;
 	margin-top: 25px;
+}
+#collection8 {
+	width: 1600px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.welcome {
+	width: 1200px;
+	height: 50px;
+	margin: 0 200px;
+	display: flex;
+	font-family: arial;
+	position: relative;
+}
+select {
+	width: 125px;
+	height: 50px;
+}
+.p1 {
+	width: 360px;
+	height: 50px;
+	display: flex;
+	margin: 0 15px;
+}
+.p2, .p3, .p4 {
+	font-size: 15px;
+	padding: 5px;
+}
+.p2{
+	margin-top: 1px;
+	margin-left: 20px;
+}
+.p3 {
+	font-style: italic;
+	position: absolute;
+	left: 250px;
+	right: 0;
+	top: -5px;
+}
+.pp2 {
+	border-left: 1px solid #000;
+	height: 30px;
+	margin-top: 8px;
+}
+.p4 {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	right: 530px;
+	left: 0;
+	top: 10px;
+	color: #000;
+}
+form {
+ 	width: 540px;
+ 	height: 50px;
+ 	display: flex;
+ 	border-right: 1px solid #ccc;
+ 	margin: 0 10px;
+}
+input[type=search] {
+	width: 400px;
+	padding: 0 20px;
+	visibility: hidden;
+}
+.search {
+	width: 22px;
+	height: 20px;
+	background-image: url(./image/search.png);
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 15px 8px;
+	text-align: right;
+}
+.wish-list {
+	width: 22px;
+	height: 20px;
+	background-image: url(./image/wish-list.png);
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 15px;
+	padding: 5px;
+	text-align: right;
+	font-size: 18px;
+}
+.wish-list::before {
+	content: "(4)";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.shopping-cart {
+	display: flex;
+	width: 175px;
+	height: 50px;
+	text-align: right;
+	
+}
+.shopping-cart1 {
+	width: 22px;
+	height: 22px;
+	background-image: url(./image/shopping-cart.png);
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 5px;
+	margin: 15px 0 0 0;
+	font-size: 18px;
+} 
+.shopping-cart1::before {
+	content: "(1)";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+.shopping-cart2 {
+	height: 20px;
+	padding: 0px 20px;;
+	margin-left: 30px;
+	margin-top: 15px;
+	border-left: 1px solid #000;
 }
