@@ -304,3 +304,126 @@ aside {
 	top: 475px;
 	left: 225px;
 }
+#collection4 {
+
+}
+.new-collection {
+	height: 150px;
+	text-align: center;
+	font-family: arial;
+	letter-spacing: 3px;
+	padding: 80px 0 40px;
+}
+.new-collection1 {
+	height: 345px;
+	width: 1600px;
+	display: flex;
+}
+.button4, .button5 {
+	width: 200px;
+	height: 345px;
+	background-repeat: no-repeat;
+	background-color: #f7f7f7;
+	border: 1px solid transparent;
+}
+.button4 {
+	background-image: url(./image/str-left.jpg);
+	background-position: right;
+}
+.button5 {	
+	background-image: url(./image/str-right.jpg);
+	background-position: left;
+}
+
+.button4:focus, .button5:focus {
+	outline: none;
+}
+#collection5 {
+	display: flex;
+	width: 1600px;
+	height: 340px;
+	background-color: #f7f7f7;
+	margin-top: 65px;
+}
+.map {
+	width: 495px;
+	height: 242px;
+	background-image: url(./image/map.jpg);
+	margin: 53px 100px 125px 290px;
+}
+.map1 {
+	width: 410px;
+	color: #999;
+	text-align: center;
+	font-family: verdana;
+	margin-right: 290px;
+	font-size: 27px;
+	letter-spacing: 3px;
+	position: relative;
+}
+.map2 {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 195px;
+}
+.map3 {
+	font-style: oblique;
+	font-size: 15px;
+	line-height: 8px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 150px;
+}
+.button6 {
+	text-decoration: none;
+	width: 294px;
+	height: 45px;
+	color: #999;
+	border: 1px solid #999;
+	font-size: 17px;
+	padding: 13px 10px;
+	letter-spacing: 3px;
+	position: absolute;
+	right: 0;
+	left: 60px;
+	bottom: 65px;
+	font-family: arial;
+}
+footer {
+
+}
+label {
+	margin: auto 50px auto 100px;
+	font-family: arial;
+	letter-spacing: 3px;
+}
+input[type=email] {
+	width: 350px;
+	height: 40px;
+	margin: 0 10px;
+	padding: 3px 20px;
+	font-style: italic;
+	border: 2px solid #ccc;
+	box-sizing: content-box;
+}
+input[type=submit] {
+	width: 160px;
+	height: 46px;
+	background-color: #3e1d1d;
+	color: #fff;
+	margin: 0 3px;
+	border: 1px solid #3e1d1d;
+	box-sizing: content-box;
+	font-size: 22px;
+	font-family: "Courier New", Courier, monospace;
+}
+#last {
+
+}
+.last1 {
+	text-decoration: none;
+}
